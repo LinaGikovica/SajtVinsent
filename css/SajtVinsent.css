@@ -1,0 +1,101 @@
+html,
+    body {
+        height: 100%;
+    }
+
+body {
+        background-image: url("../img/background.jpg");
+        color: white;
+    }
+    h1,
+    p,
+    body {
+        margin: 0px;
+    }
+
+    p {
+        padding: 10px;
+        text-align: justify;
+   
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    header {
+        
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 35%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aqua;
+    }
+
+    main {
+        position: absolute;
+        top: 20%;
+        bottom: 20%;
+        right: 0px;
+        left: 0px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 35%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:aqua;
+        font-family: 'EB Garamond', serif;
+    }
+
+    #about {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'EB Garamond', serif;
+        color: aqua;
+    }
+
+    #divider {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 35%;
+        width: 1px;
+        background-color: darkgrey;
+    }
+
+    #picture {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 36%;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     a {
+     color:darkgoldenrod;}
+
+   
+    a:hover {
+        color: darkorange;
+        padding-bottom: 1px;
+        border-bottom: 1px solid red;
+    }
+
